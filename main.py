@@ -106,8 +106,6 @@ def main(argv):
 if __name__ == "__main__":
     capital_gains_and_losses_output, taxable_income_output = main(sys.argv[1:])
     print(capital_gains_and_losses_output.to_string())
-    print()
     print("-" * 100)
-    print()
     print(taxable_income_output.to_string())
     print()
